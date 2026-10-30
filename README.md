@@ -112,8 +112,8 @@ npm run build
 Crea tu archivo `.env` basándote en `.env.example`:
 ```env
 GTM_CLIENT_ID=tu-client-id.apps.googleusercontent.com
-GTM_CLIENT_SECRET=GOCSPX-tu-client-secret
-GTM_REFRESH_TOKEN=1//tu-refresh-token
+GTM_CLIENT_SECRET=tu-client-secret-aqui
+GTM_REFRESH_TOKEN=tu-refresh-token-aqui
 GTM_DEFAULT_ACCOUNT_ID=1234567890
 ```
 
@@ -133,8 +133,8 @@ Agrega la configuración a tu archivo `mcp_config.json`:
       ],
       "env": {
         "GTM_CLIENT_ID": "tu-client-id.apps.googleusercontent.com",
-        "GTM_CLIENT_SECRET": "GOCSPX-tu-client-secret",
-        "GTM_REFRESH_TOKEN": "1//tu-refresh-token",
+        "GTM_CLIENT_SECRET": "tu-client-secret-aqui",
+        "GTM_REFRESH_TOKEN": "tu-refresh-token-aqui",
         "GTM_DEFAULT_ACCOUNT_ID": "1234567890"
       }
     }
